@@ -1,0 +1,24 @@
+Assignment 3
+Problem 5
+
+Define function wages that takes array input
+Define function dislay that takes array input
+Define global array sales that corresponds to input sales
+Define global array salary that corresponds to calculated salary
+Define global array frequency that corresponds to occurrence of each range of salaries
+
+Main:
+Prompt user to enter 11 values of gross sales of the week for each employee
+For each entered data, record into array sales
+Calculate wage using function wages
+Display calculated frequency of occurrence of salary in table fashion
+
+Function Defining:
+
+Define function wages that takes an array of 11 elements as input
+For every element of the array, calculate salary and record into array Salary
+
+Define function display that takes an array of 11 elements as input
+For every element in the array, record frequency of certain range  by increasing 
+the value corresponding to it in the array frequency
+Output frequency of each range in a table fashion

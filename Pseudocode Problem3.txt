@@ -1,0 +1,21 @@
+Assignment 3
+Problem 3
+
+Define function Power with two variables; base and exponent
+
+Begin main function
+Assign integer type to variable base and initialize to zero
+Assign integer type to variable exponent and initialize to zero
+Print out Enter base and exponent
+User enters base and exponent
+Prints out the power by calling the function power
+End of main function
+
+Function Defining:
+Function Power with two variable; base and exponent
+Assign integer type to variable power and initialize to zero
+For loop to calculate the power
+If statement exponent equals one, power assigned to base
+Else statement for false case when power equals base multiplied by function (base, exponent -1)
+End for statement
+Return power

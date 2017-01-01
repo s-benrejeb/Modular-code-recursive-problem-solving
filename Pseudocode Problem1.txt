@@ -1,0 +1,28 @@
+Assignment 3
+Problem 1
+
+Define function to calculate charges per hour
+
+Begin main function
+Assign double type to variable charge and initialize to zero
+Assign double type to variable hours and initialize to zero
+Assign double type to totalHours 
+Assign double type to totalCharge
+Print out the headings for Car, Hours and Charge
+For loop to display the number of cars from 1 to 3
+Begin for loop
+If statement to calculate the charge for the first 3 hours
+Print out the charge
+Else if statement to display $10 if parked for 24 hours
+Else if statement to calculate the charge greater than 3 hours but less than 24 hours
+Charge equals calculateCharges(hours) which calls the function
+Prints out the calculated charge
+totalCharges assigned to totalCharges+charge
+totalHours assigned to totalHours+hours
+End for loop
+Print out totalHours and totalCharge
+End main
+
+Call function calculateCharges (double hours)
+Calculate charge as 2.00 plus 0.5 multiplied ceil(hours)
+Return charge

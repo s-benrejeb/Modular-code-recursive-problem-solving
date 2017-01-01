@@ -1,0 +1,55 @@
+Assignment 3
+
+Problem 4
+
+Define function prototype for quotient (takes 2 arguments)
+Define function prototype for remainder (takes 2 arguments)
+Define function prototype for printing digits (takes 1 argument)
+
+Main:
+Declare variable corresponding to data entered by user
+Prompt user to enter data
+User enters data
+If the number is bigger than 32767, it is out of scope
+Output error message
+If the number is smaller than 2, it is out of scope
+Output error message
+Otherwise, output digits separated by spaces using function to do so
+
+Function Definition:
+
+Define function quotient that takes 2 arguments
+Declare variable corresponding to end result, quotient
+Assign variable quotient to division of 2 input numbers
+Return variable quotient
+
+Define function remainder that takes 2 arguments
+Declare variable corresponding to the end result, remainder
+Assign variable quotient to modulo of 2 input numbers
+Return variable remainder
+
+Define function printDigits that takes 1 argument
+Declare variable corresponding to the counter used in the for loop
+Evaluate input number to assign proper value to loop counter
+Depending on the number of digits in the number, use quotient function
+and remainder function to isolate digit
+Output isolated digit with string of 2 spaces
+Repeat counter times
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
